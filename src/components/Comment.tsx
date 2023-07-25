@@ -22,12 +22,12 @@ export function Comment ({content, onDeleteComment}: CommentProps){
     
    return(
     <div className={styles.comment}>
-            <Avatar hasBorder={false} src="https://github.com/SuhAQueiroz.png" />
+            <Avatar hasBorder={false} src="https://media.licdn.com/dms/image/C4E03AQHN5U_l3WuC5Q/profile-displayphoto-shrink_800_800/0/1580341809881?e=1695859200&v=beta&t=1lKNiAMe6Nh9fr36FPQinMpufLpOlE7kkvUuBP0bkAU" />
         <div className={styles.commentBox}>
             <div className={styles.commentContent}>
                 <header>
                     <div className={styles.authorAndTime}>
-                        <strong>Suzy Queiroz</strong>
+                        <strong>Júlio Max</strong>
                         <time dateTime="2023-07-27 18:15" title="27 de ajulho às 18:15">Cerca de há 1h atrás</time>
                     </div>
                     <button onClick={handleDeleteComment} title="Deletar comentário">

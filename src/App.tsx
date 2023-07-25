@@ -14,7 +14,7 @@ const posts = [
     },
     content:[
       {type: "paragraph", content: "Fala galeraa 👋"},
-      {type: "paragraph", content: "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"},
+      {type: "paragraph", content: "Desenvolvi esse projeto em React com Typescript, usando conceitos de Iteração, propriedades do componente, estado, key, comunicação entre componentes, validação de formulários, imutabilidade.🚀"},
       {type: "link", content: "👉jane.design/doctorcare"}
     ],
     publishedAt: new Date('2023-07-08 19:00:00')
@@ -23,12 +23,12 @@ const posts = [
     id: 2,
     author: {
       avatarUrl: "https://github.com/SuhAQueiroz.png",
-      name: "Pedro Queiroz",
+      name: "Suzy Queiroz",
       role: "Developer"
     },
     content:[
       {type: "paragraph", content: "Fala galeraa 👋"},
-      {type: "paragraph", content: "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"},
+      {type: "paragraph", content: "É um projeto simples, mas que me garantiu mais conhecimento. foco!!! 🚀"},
       {type: "link", content: "👉jane.design/doctorcare"}
     ],
     publishedAt: new Date('2023-07-08 19:20:00')
